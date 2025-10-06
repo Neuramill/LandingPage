@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuramill - AI-Native CNC Automation Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="logo.png?v=1" alt="Neuramill" class="logo-img">
+                <h2>Neuramill</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <video autoplay muted loop playsinline controls class="hero-video">
+                <source src="Refining_Machined_Part_Design.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">
+                <div class="video-content">
+                    <div class="video-logo">
+                        <img src="logo.png?v=1" alt="Neuramill" class="logo-img">
+                    </div>
+                    <h1 class="video-title">Neuramill</h1>
+                    <p class="video-subtitle">Design to Cut in Minutes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <header class="hero" id="home">
+            <div class="hero-badge">
+                <span>AI-NATIVE CNC AUTOMATION</span>
+            </div>
+            <h1 class="hero-title">Design to cut 10× faster</h1>
+            <p class="hero-subtitle">AI-powered CAM Setup and programming that transforms aerospace, defense, and robotics manufacturing. From CAD to shop floor in minutes, not days.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">90%</span>
+                    <span class="stat-label">Faster Programming</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3x</span>
+                    <span class="stat-label">Shop Throughput</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Zero</span>
+                    <span class="stat-label">Rework</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="cta-button primary">Request Demo</a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- How It Works Section -->
+            <section class="how-it-works-section" id="how-it-works">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2 class="section-title">How It Works</h2>
+                        <p class="section-subtitle">From CAD to shop floor in three simple steps</p>
+                    </div>
+                    <div class="process-flow">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div class="step-graphic">
+                                <svg width="80" height="80" viewBox="0 0 100 100" class="step-icon">
+                                    <!-- 3D CAD Part - Bracket -->
+                                    <g class="cad-part">
+                                        <!-- Main body - 3D effect -->
+                                        <rect x="30" y="35" width="40" height="30" fill="rgba(37, 99, 235, 0.3)" stroke="#2563eb" stroke-width="2"/>
+                                        <!-- 3D depth effect -->
+                                        <polygon points="30,35 35,30 75,30 70,35" fill="rgba(37, 99, 235, 0.2)" stroke="#2563eb" stroke-width="1"/>
+                                        <polygon points="70,35 75,30 75,60 70,65" fill="rgba(37, 99, 235, 0.1)" stroke="#2563eb" stroke-width="1"/>
+                                        
+                                        <!-- Mounting holes with depth -->
+                                        <circle cx="35" cy="40" r="3" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="1"/>
+                                        <circle cx="35" cy="40" r="2" fill="rgba(37, 99, 235, 0.6)"/>
+                                        <circle cx="65" cy="40" r="3" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="1"/>
+                                        <circle cx="65" cy="40" r="2" fill="rgba(37, 99, 235, 0.6)"/>
+                                        <circle cx="35" cy="60" r="3" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="1"/>
+                                        <circle cx="35" cy="60" r="2" fill="rgba(37, 99, 235, 0.6)"/>
+                                        <circle cx="65" cy="60" r="3" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="1"/>
+                                        <circle cx="65" cy="60" r="2" fill="rgba(37, 99, 235, 0.6)"/>
+                                        
+                                        <!-- Bracket arms with 3D effect -->
+                                        <rect x="25" y="40" width="10" height="20" fill="rgba(37, 99, 235, 0.3)" stroke="#2563eb" stroke-width="2"/>
+                                        <polygon points="25,40 30,35 30,55 25,60" fill="rgba(37, 99, 235, 0.2)" stroke="#2563eb" stroke-width="1"/>
+                                        
+                                        <rect x="65" y="40" width="10" height="20" fill="rgba(37, 99, 235, 0.3)" stroke="#2563eb" stroke-width="2"/>
+                                        <polygon points="75,40 80,35 80,55 75,60" fill="rgba(37, 99, 235, 0.2)" stroke="#2563eb" stroke-width="1"/>
+                                        
+                                        <!-- Center hole with depth -->
+                                        <circle cx="50" cy="50" r="5" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="2"/>
+                                        <circle cx="50" cy="50" r="3" fill="rgba(37, 99, 235, 0.6)"/>
+                                        
+                                        <!-- Highlight for 3D effect -->
+                                        <path d="M30 35 L35 30 L75 30" stroke="rgba(37, 99, 235, 0.8)" stroke-width="1" fill="none"/>
+                                        <path d="M70 35 L75 30 L75 60" stroke="rgba(37, 99, 235, 0.6)" stroke-width="1" fill="none"/>
+                                    </g>
+                                    
+                                    <!-- Upload indicator -->
+                                    <g class="upload-arrow">
+                                        <path d="M45 20 L50 15 L55 20" stroke="#2563eb" stroke-width="2" fill="none"/>
+                                        <path d="M50 15 L50 25" stroke="#2563eb" stroke-width="2"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h3>Upload CAD & GD&T</h3>
+                                <p>Import your CAD models and drawing specs. AI analyzes material properties and design intent.</p>
+                            </div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div class="step-graphic">
+                                <svg width="80" height="80" viewBox="0 0 100 100" class="step-icon">
+                                    <!-- Computer Chip/Processor -->
+                                    <g class="processor">
+                                        <!-- Main chip body -->
+                                        <rect x="25" y="30" width="50" height="40" fill="rgba(37, 99, 235, 0.1)" stroke="#2563eb" stroke-width="2" rx="4"/>
+                                        
+                                        <!-- Chip pins -->
+                                        <rect x="20" y="35" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="20" y="40" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="20" y="45" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="20" y="50" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="20" y="55" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="20" y="60" width="5" height="2" fill="#2563eb"/>
+                                        
+                                        <rect x="75" y="35" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="75" y="40" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="75" y="45" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="75" y="50" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="75" y="55" width="5" height="2" fill="#2563eb"/>
+                                        <rect x="75" y="60" width="5" height="2" fill="#2563eb"/>
+                                        
+                                        <!-- Circuit lines -->
+                                        <rect x="30" y="35" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        <rect x="30" y="40" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        <rect x="30" y="45" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        <rect x="30" y="50" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        <rect x="30" y="55" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        <rect x="30" y="60" width="40" height="1" fill="#2563eb" opacity="0.6"/>
+                                        
+                                        <!-- Central processing unit -->
+                                        <rect x="40" y="40" width="20" height="20" fill="rgba(37, 99, 235, 0.3)" stroke="#2563eb" stroke-width="1" rx="2"/>
+                                        
+                                        <!-- Processing indicator -->
+                                        <circle cx="50" cy="50" r="3" fill="#2563eb" class="processing-core"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h3>AI Generates Strategy</h3>
+                                <p>AI automatically selects tools, calculates speeds/feeds, and sequences operations for your shop.</p>
+                            </div>
+                        </div>
+                        <div class="process-arrow">→</div>
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div class="step-graphic">
+                                <svg width="80" height="80" viewBox="0 0 100 100" class="step-icon">
+                                    <!-- CNC Machine -->
+                                    <rect x="20" y="40" width="60" height="20" fill="rgba(37, 99, 235, 0.1)" stroke="#2563eb" stroke-width="2" rx="2"/>
+                                    <rect x="25" y="35" width="50" height="5" fill="rgba(37, 99, 235, 0.2)" stroke="#2563eb" stroke-width="1"/>
+                                    <rect x="30" y="30" width="40" height="5" fill="rgba(37, 99, 235, 0.3)" stroke="#2563eb" stroke-width="1"/>
+                                    <!-- Spindle -->
+                                    <circle cx="50" cy="25" r="3" fill="#2563eb"/>
+                                    <rect x="49" y="22" width="2" height="8" fill="#2563eb"/>
+                                    <!-- Workpiece -->
+                                    <rect x="40" y="45" width="20" height="10" fill="rgba(37, 99, 235, 0.4)" stroke="#2563eb" stroke-width="1"/>
+                                    <!-- G-code lines -->
+                                    <text x="15" y="75" font-family="monospace" font-size="8" fill="#2563eb">G01 X10 Y20</text>
+                                    <text x="15" y="85" font-family="monospace" font-size="8" fill="#2563eb">G02 X30 Y40</text>
+                                    <text x="15" y="95" font-family="monospace" font-size="8" fill="#2563eb">M30</text>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h3>Deploy to Shop Floor</h3>
+                                <p>Export optimized CAM programs to your machines. Review and refine as needed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about-section" id="about">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2 class="section-title">The Future of Manufacturing</h2>
+                        <p class="section-subtitle">Keep your tribal knowledge alive and accelerate your shop floor</p>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <div class="value-props">
+                                <div class="value-prop">
+                                    <h4>Capture Tribal Knowledge</h4>
+                                    <p>Preserve and scale your best machinists' expertise so you don't lose critical knowledge</p>
+                                </div>
+                                <div class="value-prop">
+                                    <h4>Higher Throughput</h4>
+                                    <p>3x increase in shop floor productivity and faster job completion</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-video">
+                            <div class="video-placeholder">
+                                <div class="play-button">
+                                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+                                        <polygon points="5,3 19,12 5,21 5,3"/>
+                                    </svg>
+                                </div>
+                                <span>See Neuramill in Action</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Testimonials Section -->
+            <section class="testimonials-section" id="testimonials">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2 class="section-title">Customer Testimonial</h2>
+                        <p class="section-subtitle">What industry leaders say about Neuramill</p>
+                    </div>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <p>"Neuramill knows off-the-shelf AI doesn’t fit manufacturing. They focus on what matters: efficiency, consistency, and preserving shop-floor knowledge."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="company-logo">
+                                    <img src="wf.png" alt="Walker Forge" class="company-logo-img">
+                                </div>
+                                <div class="author-info">
+                                    <h3>Willard Walker III</h3>
+                                    <p class="author-title">Head of Innovation, Walker Forge</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <p>"Neuramill tackles key decision making processes for machining saving my machinists time and will power."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="company-logo">
+                                    <img src="Botbuilt-Logo-02-with-R.png" alt="Bot Built" class="company-logo-img">
+                                </div>
+                                <div class="author-info">
+                                    <h3>Barrett Ames</h3>
+                                    <p class="author-title">Co-Founder, Bot Built</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="team-section" id="team">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2 class="section-title">Leadership Team</h2>
+                        <p class="section-subtitle">Built by AI scientists, former Manufacturing Engineers and machinists </p>
+                    </div>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="linkedinnistha.jpeg" alt="Nistha Mitra" class="member-img">
+                            </div>
+                            <h3>Nistha Mitra</h3>
+                            <p class="member-role">CEO & Co-Founder</p>
+                            <p class="member-bio">Former Oracle AI Applied Scientist. Patented multi-modal architecture for industrial automation.</p>
+                            <div class="member-social">
+                                <a href="mailto:nistha@neuramill.co" class="social-link email">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nmitra28/" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://x.com/nmitra2k" target="_blank" rel="noopener noreferrer" class="social-link twitter">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="linkedinnick.jpeg" alt="Nick Khormaei" class="member-img">
+                            </div>
+                            <h3>Nick Khormaei</h3>
+                            <p class="member-role">COO & Co-Founder</p>
+                            <p class="member-bio">Former Manufacturing Engineer at SpaceX and Boeing. Led certification testing for 777X program.</p>
+                            <div class="member-social">
+                                <a href="mailto:nick@neuramill.co" class="social-link email">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nick-khormaei/" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://x.com/nkhormaei" target="_blank" rel="noopener noreferrer" class="social-link twitter">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Supporters Section -->
+            <section class="supporters-section" id="supporters">
+                <div class="section-container">
+                    <div class="section-header">
+                        <h2 class="section-title">Our Supporters</h2>
+                        <p class="section-subtitle">Backed by leading investors and accelerators</p>
+                    </div>
+                    <div class="supporters-grid">
+                        <div class="supporter-logo">
+                            <a href="https://www.ascend.vc/" target="_blank" rel="noopener noreferrer">
+                                <img src="ascned_2.png" alt="Ascend" class="supporter-img">
+                            </a>
+                        </div>
+                        <div class="supporter-logo">
+                            <a href="https://www.breakwater.vc/" target="_blank" rel="noopener noreferrer">
+                                <img src="bv.avif" alt="Breakwater" class="supporter-img">
+                            </a>
+                        </div>
+                        <div class="supporter-logo">
+                            <a href="https://schemavc.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="schema-removebg-preview.png" alt="Schema" class="supporter-img">
+                            </a>
+                        </div>
+                        <div class="supporter-logo">
+                            <a href="https://creativedestructionlab.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="cdl.png" alt="Creative Destruction Lab" class="supporter-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section" id="contact">
+                <div class="contact-card">
+                    <h2>Ready to Transform Your Manufacturing?</h2>
+                    <p>Join the future of CNC programming. Book a demo or join our beta program to see how AI can revolutionize your shop floor.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry">Industry</label>
+                            <select id="industry" name="industry" required>
+                                <option value="">Select Industry</option>
+                                <option value="aerospace">Aerospace</option>
+                                <option value="defense">Defense</option>
+                                <option value="robotics">Robotics</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="medical">Medical Devices</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Interest</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select Interest</option>
+                                <option value="demo">Book a Demo</option>
+                                <option value="beta">Join Beta Program</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell us about your manufacturing challenges</label>
+                            <textarea id="message" name="message" rows="4" placeholder="What's your current CAM programming process? What bottlenecks are you facing?" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Get Started</button>
+                    </form>
+                    
+                    <div class="success-message" id="successMessage" style="display: none;">
+                        <p>Thank you for your message! We'll get back to you soon.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Neuramill. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
