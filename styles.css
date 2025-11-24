@@ -627,6 +627,37 @@ body::before {
     transform: translateY(-2px);
 }
 
+.demo-cta {
+    text-align: center;
+    padding: 40px;
+}
+
+.demo-cta h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.demo-cta p {
+    font-size: 1.1rem;
+    color: rgba(26, 26, 26, 0.7);
+    margin: 0;
+}
+
+.demo-cta a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.demo-cta a:hover {
+    color: #3A7BC8;
+    text-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
 /* Features Section */
 .features-section {
     padding: 80px 0;
